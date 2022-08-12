@@ -1,0 +1,72 @@
+baseURL = "https://example.com/"
+languageCode = "en"
+title = "Genequine Ouest - Un groupe d'éleveurs au service des éléveurs"
+theme = "hugo-initio"
+
+[params]
+    name = "Genequine Ouest"
+    description = "Un groupe d'éleveurs au service des éleveurs"
+    # email = "genequineouest@gmail.com"
+    # phone = "+234 23 9873237"
+    address = "Kervic, 29590 Pont-de-Buis-lès-Quimerch"
+    year = 2022
+    avatar = "images/logo-genequineouest2.png"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/horse-race3.png"
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+    author = "Aurélien Dincuff"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = false
+    showAdhesion = true
+    showDownloads = true
+    showClients = false
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = false
+    showFooterFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "facebook"
+	url = "https://www.facebook.com/nickname"
+    icon = "fab fa-facebook-square"
+    footer = true
+    sharethis = true
+    network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/nickname"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "email"
+	url = "mailto:some.email@somewhere.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"
