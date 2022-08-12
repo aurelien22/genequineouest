@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://curious-sopapillas-029d8f.netlify.app/"
 languageCode = "en"
 title = "Genequine Ouest - Un groupe d'éleveurs au service des éléveurs"
 theme = "hugo-initio"
