@@ -1,6 +1,6 @@
 +++
 title = "BULLETIN D'INSCRIPTION"
-file = "pdf/logo-genequine.pdf"
+file = "pdf/bulletinAdhesion.pdf"
 weight = 1
 +++
 
